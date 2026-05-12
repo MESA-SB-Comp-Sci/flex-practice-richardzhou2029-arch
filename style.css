@@ -5,8 +5,8 @@
 .challenge-1 {
   background-color: grey;
   width: 100vw;
-  /* add code below */
-
+  display:flex;
+  flex-direction:row;
 
 }
 
@@ -19,7 +19,7 @@
   background-color: grey;
   width: 100vw;
   display: flex;
-  /* add code below*/
+  flex-direction:column;
 
 
 
@@ -34,7 +34,10 @@
 .challenge-3 {
   background-color: grey;
   width: 100vw;
-  /* add code below */
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
 
 
 }
@@ -48,7 +51,11 @@
   background-color: grey;
   width: 100vw;
   height: 400px;
-  /* add code below */
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:row;
+
 
 
 
@@ -65,14 +72,19 @@
 .challenge-5a {
   background-color: grey;
   width: 100vw;
-  /* top section, add code below */
+  display:flex;
+  flex-direction:center;
+  align-items:center;
 
 }
 
 .challenge-5b {
   background-color: lightgray;
   width: 100vw;
-  /* bottom section, add code below */
+  display:flex;
+  flex-direction:center;
+  align-items:center;
+  flex-direction:column;
 
 
 }
